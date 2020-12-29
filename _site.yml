@@ -1,0 +1,17 @@
+name: "Brian Folt"
+output_dir: "."
+navbar:
+  title: "Brian Folt"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Fieldwork"
+      href: fieldwork.html
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

@@ -1,0 +1,7 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+    
+I am a quantitative population ecologist who is interested in understand how to conserve endangered species and ecosystems. My curent research involves using population demographic models to understand extinction risk for populations of imperiled reptiles in the southeastern United States, such as gopher tortoises and eastern indigo snakes. I am a Postdoctoral Researcher at [Alabama Cooperative Fish and Wildlife Research Unit](https://www1.usgs.gov/coopunits/Alabama/) in the School of Forestry and Wildlife Sciences at Auburn University. 
+    
