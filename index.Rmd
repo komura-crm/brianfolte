@@ -2,6 +2,28 @@
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
-    
-I am a quantitative population ecologist who is interested in understand how to conserve endangered species and ecosystems. My curent research involves using population demographic models to understand extinction risk for populations of imperiled reptiles in the southeastern United States, such as gopher tortoises and eastern indigo snakes. I am a Postdoctoral Researcher at [Alabama Cooperative Fish and Wildlife Research Unit](https://www1.usgs.gov/coopunits/Alabama/) in the School of Forestry and Wildlife Sciences at Auburn University. 
-    
+
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+</style>
+
+<img src="images/me_amphiuma_2012.jpg" style="width:30%; border:2px solid; margin-right: 20px" align="left">
+
+# Brian Folt, PhD -- Wildlife biology, population modeling, and conservation
+
+I am a wildlife biologist, a tropical ecologist, and a conservationist. I hold a B.S. in [Biological Sciences from Ohio University](https://www.ohio.edu/cas/biology) (2011) and a Ph.D. in [Ecology from Auburn University](http://www.auburn.edu/cosam/departments/biology/) (2017). I am now a post-doctoral researcher in the [Alabama Cooperative Fish and Wildlife Research Unit](https://www1.usgs.gov/coopunits/Alabama/) at Auburn University, where I am modeling population demography of endangered reptiles and providing decision-support science. My post-doctoral superviser is [Conor McGowan](https://scholar.google.com/citations?user=8-3_fxYAAAAJ&hl=en&oi=ao).
+
+On this site, you can learn about my [research]() and [teaching]() background, where I conduct [field research projects](), and the resulting [publications](). I also have a page where I list important research [collaborators](). Last, I hope to highlight various other [musings, philosophies, and life experiences]() with periodic blog posts.
+
+Contact information:
+
+Brian Folt, 3301 School of Forestry and Wildlife Sciences, Auburn University, Alabama 36849 USA
+
+brian [dot] folt [at] gmail.com;  +1.334.844.9219

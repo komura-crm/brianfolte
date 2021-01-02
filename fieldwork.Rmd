@@ -1,0 +1,52 @@
+---
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(vembedr); library(htmltools); library(leaflet)
+```
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+</style>
+
+# Fieldwork
+
+Here are sites where my colleagues and I have developed field research projects. The map is still under-construction; check back in the future for project descriptions and pictures!
+
+```{r leaflet, echo=FALSE}
+
+df <- read.csv(textConnection(
+"Name,Lat,Long,
+Conecuh National Forest, 34.597131,-89.000,
+Yunna China, 22.000, 100.8000,
+Lower Canyons TX, 29.633241, -102.74,
+Painter Gap GA, 34.799517, -84.576,
+Spring Creek GA, 30.937477, -84.7426,
+Mobile Bay AL, 30.868031, -87.9411,
+La Selva Biological Station, 10.425307, -84.017,
+Palo Verde Biological Station, 10.296803, -85.273"
+))
+
+leaflet(df) %>% addTiles() %>%
+  addMarkers(~Long, ~Lat, popup = ~htmlEscape(Name)) %>%
+  addProviderTiles(providers$OpenMapSurfer.Roads)
+
+```
+
+Here are trip videos from some of my favorite field excursions!
+
+```{r library(vembedr), echo=FALSE}
+embed_vimeo("152795925")
+
+embed_vimeo("291925447")
+```
