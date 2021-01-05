@@ -18,12 +18,8 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 # Brian Folt, PhD -- Wildlife biology, population modeling, and conservation
 
-I am a wildlife biologist, a tropical ecologist, and a conservationist. I hold a B.S. in [Biological Sciences from Ohio University](https://www.ohio.edu/cas/biology) (2011) and a Ph.D. in [Ecology from Auburn University](http://www.auburn.edu/cosam/departments/biology/) (2017). I am now a post-doctoral researcher in the [Alabama Cooperative Fish and Wildlife Research Unit](https://www1.usgs.gov/coopunits/Alabama/) at Auburn University, where I am modeling population demography of endangered reptiles and providing decision-support science. My post-doctoral superviser is [Conor McGowan](https://scholar.google.com/citations?user=8-3_fxYAAAAJ&hl=en&oi=ao).
+I am a wildlife biologist, a tropical ecologist, and a conservationist. I hold a B.S. in [Biological Sciences from Ohio University](https://www.ohio.edu/cas/biology) (2011) and a Ph.D. in [Ecology from Auburn University](http://www.auburn.edu/cosam/departments/biology/) (2017). I am now a post-doctoral researcher in the [Alabama Cooperative Fish and Wildlife Research Unit](https://www1.usgs.gov/coopunits/Alabama/) at Auburn University, where I am modeling population demography of endangered species and engaging in decision-support science. My post-doctoral superviser is [Conor McGowan](https://scholar.google.com/citations?user=8-3_fxYAAAAJ&hl=en&oi=ao).
 
-On this site, you can learn about my [research]() and [teaching]() background, where I conduct [field research projects](), and the resulting [publications](). I also have a page where I list important research [collaborators](). Last, I hope to highlight various other [musings, philosophies, and life experiences]() with periodic blog posts.
+On this site, you can learn about my [research](https://brianf0lt.github.io/research) and [teaching](https://brianf0lt.github.io/teaching) background, where I conduct [field research projects](https://brianf0lt.github.io/fieldwork), and the resulting [publications](https://brianf0lt.github.io/publications). Last, I hope to highlight various other [musings, philosophies, and life experiences](https://brianf0lt.github.io/musings) with periodic blog posts.
 
-Contact information:
-
-Brian Folt, 3301 School of Forestry and Wildlife Sciences, Auburn University, Alabama 36849 USA
-
-brian [dot] folt [at] gmail.com;  +1.334.844.9219
+You can contact me at: brian [dot] folt [at] gmail.com or +1.334.844.9219. Or, my postal address is: 3301 School of Forestry and Wildlife Sciences, Auburn University, Alabama 36849 USA

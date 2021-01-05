@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>musings.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Brian Folt</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Welcome</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="fieldwork.html">Fieldwork</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="musings.html">Musings</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://scholar.google.com/citations?hl=en&amp;user=wYb92bAAAAAJ">
+    <span class="fa fa-google fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/brianf0lt">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/brianf0lt">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.instagram.com/bf_lettuce/?hl=en">
+    <span class="fa fa-instagram fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+</style>
+<div id="musings" class="section level1">
+<h1>Musings</h1>
+<p>Below here are a few blogs where I contemplate half-formed philosophies and various other musings about life and this wild world that we live in. Have a click and a read or two.</p>
+<div class="expand collapsed" data-toggle="collapse" data-target="#missoula" aria-expanded="false" aria-controls="missoula">
+<p><strong>A River Runs Through It - 31 October 2019</strong></p>
+</div>
+<div id="missoula" class="collapse">
+<p><img src="images/missoula.png" style="width:30%; border:1px solid; margin-left: 15px" align="right"> The Blackfoot River runs through Missoula, Montana, where I visited last week to attend a workshop at the University of Montana. The Blackfoot and its hills struck me as as a phenomenal setting for a college campus. Every day I enjoyed walking across campus, basking in the beautiful fall colors, and watching fly fisherman work the waters in the Blackfoot.</p>
+<p>The workshop I participated in was meant to improve my statistical modeling skills. The five-day course taught us the theory, methodology, and interpretation of integrated population models in a Bayesian framework. This relatively new technique is particularly exciting because it integrates multiple datasets on wild animal populations (mark-recapture data [to estimate survival], count data [to estimate trends in abundance], and fecundity data [to estimate recruitment]); by integrating these data, one can project abundance while estimating survival and fecundity patterns driving variation in population size. I’m back in Alabama now, and I am busy putting these new skills to use while modeling population demography and viability for Gopher Tortoises at our study sites in south Alabama! <img src="images/group-ipm-workshop.jpg" style="width:40%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>I’m particularly thankful for Michael Schaub and Marc Kery for traveling all the way from Switzerland to teach the course. Their teaching style is so clear and concise, and I recommend their workshops for anyone interesting in Bayesian analysis. I learned a lot. But perhaps the most valuable lesson I learned was that I will never travel out West without my fly rod. The Blackfoot looked phenomenal, even in October, and I missed out on some prime fly-hurling time. Until the next trip!</p>
+</div>
+<div class="expand collapsed" data-toggle="collapse" data-target="#indigo" aria-expanded="false" aria-controls="indigo">
+<p><strong>Indigo Snake Reintroductions - 2 April 2019</strong></p>
+</div>
+<div id="indigo" class="collapse">
+<p><img src="images/indigo.jpg" style="width:30%; border:1px solid; margin-left: 15px" align="right"> I have been involved in a long-term project to reintroduce Eastern Indigo Snakes into historic areas of the species range where it no longer lives. This is an important project that seeks to decrease extinction risk for the endangered snake, while also restoring its ecological role into fragile ecosystems. I wrote an op-ed article in the Tallahassee Democrat that describes the reintroduction project as a whole, and some of our important research on the topic. You can read it <a href="https://www.tallahassee.com/story/opinion/2019/03/31/indigo-snake-releases-guided-strong-science-conservation-ethic/3313120002/">here</a>.</p>
+</div>
+<div class="expand collapsed" data-toggle="collapse" data-target="#LSU" aria-expanded="false" aria-controls="LSU">
+<p><strong>Visit to LSU Museum of Natural Sciences - 13 March 2019</strong></p>
+</div>
+<div id="LSU" class="collapse">
+<p><img src="images/oscar.jpeg" style="width:20%; border:1px solid; margin-left: 15px" align="right"> Last week, I visited the Louisiana State University (LSU) Museum of Natural Sciences, one of the largest natural history collections in the United States. My goal for the trip was to learn about the important research and museum curation activities ongoing at the museum, to get to know the students, faculty, and staff, and to give a seminar to museum staff describing my post-doctoral research.</p>
+<p>Oscar Johnson, a PhD student in the Brumfield laboratory, gave me an incredible tour of the Ornithology Collections. Here is Oscar, explaining/demonstrating to me that the “tail” of the Resplendant Quetzal aren’t actually rectrices (tail feathers), but rather upper tail coverts. They include phylogenetic trees inside each cabinet, which I found to be a useful feature. Oscar also showed me the smallest bird in the world, the Bumblebee Hummingbird! <img src="images/hummer.jpeg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>Jackson Roberts, another PhD student, gave me a tour through the Herpetology Collections and molecular genetic laboratories. Jackson showed me tons of interesting specimens, including the smallest and largest frogs in the world, Paedophryne amauensis from New Guinea, and the Goliath Frog (Conraua goliath) from Africa, respectively.</p>
+<p>I presented a seminar describing my post-doctoral research on tortoises and eastern indigo snakes. The seminar series at the museum is super cool; they put chairs out among the museum exhibits, it creates a nice and intimate atmosphere. The crowd was super fun and engaging, so I really enjoyed presenting to them. And, afterword there was a beer social on the front steps of the museum. I had a blast and am really fortunate to have been invited down for the experience. <img src="images/seminar-flyer.jpeg" style="width:25%; border:1px solid; margin-left: 15px" align="right"></p>
+</div>
+<div class="expand collapsed" data-toggle="collapse" data-target="#trips" aria-expanded="false" aria-controls="trips">
+<p><strong>Long Trips in Wild Places - 4 July 2018</strong></p>
+</div>
+<div id="trips" class="collapse">
+<p>I spend time outdoors with friends, family, and colleagues as much as I can. Sometimes this takes the form of an afternoon foray, or a one-night stand in the woods. A quick breath of fresh air and a look at the stars. Every now and again, however, we try to extend these trips as long as we can: for three, four, or five days. Off the grid, sleeping under the stars, and living off the land as much as possible. I find these long trips to be particularly powerful. In many ways, they cause a primal awakening in my form and psyche, something that I find to be humanizing and empowering - a sensation of utter freedom that I can’t find anywhere else in my life.</p>
+<p>During my summer vacation, I’ve recently been reading a conservation classic, <i>A Sand County Almanac</i> by Aldo Leopold. I’m only halfway through the book, but I’ve been thoroughly enjoying it. In this series of essays, Aldo Leopold paints a beautiful portrait of the natural world, and provides many compelling arguments for why we should conserve it. The book is replete with touching lines, not only about natural history and conservation, but also human nature and how our interactions with the natural world evoke powerful feelings. The following section struck me in particular — an interlude of when Leopold was canoeing a wild river, and bumped into two young men on a week-long trip (p. 120):</p>
+<blockquote>
+<p>&quot;<i>Before our young adventurers pushed off downstream, we learned that both were slated for the Army upon the conclusion of their [river] trip. Now the motif was clear. This trip was their first and last taste of freedom, an interlude between two regimentations: the campus and the barracks. The elemental simplicities of wilderness travel were thrills not only because of their novelty, but because they represented complete freedom to make mistakes, (sic) The wilderness gave them their first taste of those rewards and penalties for wise and foolish acts which every woodsman faces daily, but against which civilization has built a thousand buffers. These boys were ‘on their own’ in this particular sense.</p>
+<p>Perhaps every youth needs an occasional wilderness trip, in order to learn the meaning of this particular freedom.</i>&quot;</p>
+</blockquote>
+<footer>
+— Aldo Leopald
+</footer>
+<p>Life in the sanitary, civilized world of our society stifles my sense of vivacity. The best way I know to ditch the boring bullshit is to get off the beaten path and into a wild landscape. Leopold and Abbey knew this, for sure, and I hope others can experience this sense of absolute freedom as well.</p>
+</div>
+<div class="expand collapsed" data-toggle="collapse" data-target="#solitaire" aria-expanded="false" aria-controls="solitaire">
+<p><strong>Desert Solitaire - 28 July 2017</strong></p>
+</div>
+<div id="solitaire" class="collapse">
+<blockquote>
+“<i>I overheard a park ranger standing nearby say a few words about a place called Havasu, or Havasupai. A branch, it seemed, of the Grand Canyon. What I heard made me think that I should see Havasu immediately, before something went wrong somewhere. My friends said they would wait. So I went down into Havasu – fourteen miles by trail – and looked things over. When I returned five weeks later I discovered that the others had gone on to Los Angeles without me.</i>”
+<footer>
+Edward Abbey, 1968, <i>Desert Solitaire</i>
+</footer>
+</blockquote>
+<p>Freedom’s just another word for nothin’ left to lose… or the ability to impromptu explore the Grand Canyon for five weeks. Edward Abbey had a sense of adventure that is certainly worth emulating.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
