@@ -19,7 +19,7 @@ navbar:
     - icon: fa-google fa-lg
       href: https://scholar.google.com/citations?hl=en&user=wYb92bAAAAAJ
     - icon: fa-github fa-lg
-      href: http://github.com/brianf0lt
+      href: http://github.com/brianfolt
     - icon: fa-twitter fa-lg
       href: https://twitter.com/brianf0lt
     - icon: fa-instagram fa-lg

@@ -16,7 +16,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 # Research 
 
-My research program synthesizes topics from three different research fields – ecology, evolution, and wildlife management. Simply put, I develop and test hypotheses about the way nature works, and then I apply these models in ways to sustainably conserve both organisms and ecosystems. Click on the headers below  to learn more about areas of my research; I also include links to more detailed descriptions on my [ResearchGate](https://www.researchgate.net/profile/Brian_Folt) profile and to resulting publications! Also, check out my [fieldwork](https://brianf0lt.github.io/fieldwork) page for a map of study sites, pictures, and videos from fun field trips.
+My research program synthesizes topics from three different research fields – ecology, evolution, and wildlife management. Simply put, I develop and test hypotheses about the way nature works, and then I apply these models in ways to sustainably conserve both organisms and ecosystems. **Click on the headers** below  to learn more about areas of my research; I also include links to more detailed descriptions on my [ResearchGate](https://www.researchgate.net/profile/Brian_Folt) profile and to resulting publications! Also, check out my [fieldwork](https://brianf0lt.github.io/fieldwork) page for a map of study sites, pictures, and videos from fun field trips.
 
 <div class="expand collapsed" data-toggle="collapse" data-target="#conservation" aria-expanded="false" aria-controls="conservation">
 ## 1) Quantitative population ecology and conservation of imperiled species
