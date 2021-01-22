@@ -37,7 +37,7 @@ La Selva Biological Station, 10.425307, -84.017,
 Palo Verde Biological Station, 10.296803, -85.273"
 ))
 
-leaflet(df, width="90%") %>% addTiles() %>%
+leaflet(df) %>% addTiles() %>%
   addMarkers(~Long, ~Lat, popup = ~htmlEscape(Name)) %>%
   addProviderTiles(providers$OpenMapSurfer.Roads)
 
