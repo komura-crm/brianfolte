@@ -27,7 +27,7 @@ R Etzel^, M Cornish^, MS Kifer^, L Nuñez, G Valladao^, **B Folt** (2020). Subte
 
 <img src="images/indigo.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
-C Guyer, **B Folt**, M Hoffman, J Bauder, D Stevenson, S Goetz, M Miller, J Godwin (2019). Patterns of head shape and scutellation in *Drymarchon couperi* (Squamata: Colubridae) reveal a single morphological species. *Zootaxa* 4695(2): 168–174. [PDF](files/guyer-et-al-2019-zootaxa.PDF) [DOI](http://dx.doi.org/10.11646/zootaxa.4695.2.6)
+C Guyer, **B Folt**, M Hoffman, J Bauder, D Stevenson, S Goetz, M Miller, J Godwin (2019). Patterns of head shape and scutellation in *Drymarchon couperi* (Squamata: Colubridae) reveal a single morphological species. *Zootaxa* 4695(2): 168–174. [PDF](files/guyer-et-al-2019-zootaxa.pdf) [DOI](http://dx.doi.org/10.11646/zootaxa.4695.2.6)
 
 C Guyer, S Goetz, **B Folt**, K Joyce^ & M Hayes (2019). Variation in head shape and color of slimy salamanders (*Plethodon glutinosus* complex) across the Gulf Coastal Plain, USA. *Copeia* 107(4): 694–700. [PDF](files/guyer-et-al-2019-copeia.PDF) [DOI](https://doi.org/10.1643/CH-18-169)
 
