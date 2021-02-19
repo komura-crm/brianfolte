@@ -26,9 +26,9 @@ My research program synthesizes topics from three different research fields – 
 <img src="images/figure1-1.jpg" style="width:40%; border:2px solid; margin-left: 15px" align="right">
 I have engaged in demographic studies of large and imperiled reptiles that are currently listed or being petitioned for listing under the federal Endangered Species Act (ESA). These studies use field studies to understand the factors influencing demographic processes within species, and mathematical modeling processes to make smart decisions for how to conserve them. [Project description](https://www.researchgate.net/project/Applied-population-modeling-of-imperiled-vertebrates)
 
-  - Modeling reintroduction scenarios and successes for the federally-threatened Eastern Indigo Snakes (<i>Drymarchon couperi</i>) in Alabama and Florida [PDF](files/folt-et-al-2019-animal-conservation.PDF)
+  - Modeling reintroduction scenarios and successes for the federally-threatened Eastern Indigo Snakes (<i>Drymarchon couperi</i>) in Alabama and Florida [PDF](files/folt-et-al-2019-animal-conservation.pdf)
   
-  - Population demographics of Alligator Snapping Turtles (<i>Macrochelys temminckii</i>) [PDF](files/folt-et-al-2016-macrochelys.PDF) 
+  - Population demographics of Alligator Snapping Turtles (<i>Macrochelys temminckii</i>) [PDF](files/folt-et-al-2016-macrochelys.pdf) 
   
   - Estimating demography and projecting population viability of Gopher Tortoises (<i>Gopherus polyphemus</i>) (in review)
 </div>
@@ -49,7 +49,7 @@ For my dissertation, I tested and integrated three hypotheses describing bottom-
   
   - Bottom-up regulation of frogs and lizards (the litter-mosaic hypothesis)
   
-  - Habitat-driven [community assembly of glassfrogs](files/rivera-folt-2018-glassfrogs.PDF)
+  - Habitat-driven [community assembly of glassfrogs](files/rivera-folt-2018-glassfrogs.pdf)
 </div>
 
 
@@ -62,13 +62,13 @@ For my dissertation, I tested and integrated three hypotheses describing bottom-
 
 I am also active in projects which use a molecular-ecology toolkit to test hypotheses about population genetic structure, historical biogeography, and systematic relationships among vertebrates — while keeping a keen interest in how these patterns and processes influence conservation strategies. [Project description](https://www.researchgate.net/project/Evolution-and-systematics-of-amphibians-and-reptiles)
 
-  - Population [genetic structure of Eastern Indigo Snakes](files/folt-et-al-2019-plos-one.PDF) (<i>Drymarchon couperi</i>)
+  - Population [genetic structure of Eastern Indigo Snakes](files/folt-et-al-2019-plos-one.pdf) (<i>Drymarchon couperi</i>)
   
-  - Hybridization of Map Turtles (<i>Graptemys</i> sps.) [PDF1](files/godwin-et-al-2014-graptemys.PDF) [PDF2](http://www.herpconbio.org/Volume_11/Issue_1/Ennen_etal_2016.pdf)
+  - Hybridization of Map Turtles (<i>Graptemys</i> sps.) [PDF1](files/godwin-et-al-2014-graptemys.pdf) [PDF2](http://www.herpconbio.org/Volume_11/Issue_1/Ennen_etal_2016.pdf)
   
-  - Phylogenomics of plethodontid salamanders [PDF](files/folt-et-al-2016-mpe.PDF)
+  - Phylogenomics of plethodontid salamanders [PDF](files/folt-et-al-2016-mpe.pdf)
   
-  - Systematics of Alligator Snapping Turtles (<i>Macrochelys</i> sp.) [PDF](files/folt-guyer-2015.PDF)
+  - Systematics of Alligator Snapping Turtles (<i>Macrochelys</i> sp.) [PDF](files/folt-guyer-2015.pdf)
 </div>
   
   
