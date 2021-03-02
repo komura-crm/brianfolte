@@ -16,59 +16,61 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 # Research 
 
-My research program synthesizes topics from three different research fields – ecology, evolution, and wildlife management. Simply put, I develop and test hypotheses about the way nature works, and then I apply these models in ways to sustainably conserve both organisms and ecosystems. **Click on the headers** below  to learn more about areas of my research; I also include links to more detailed descriptions on my [ResearchGate](https://www.researchgate.net/profile/Brian_Folt) profile and to resulting publications! Also, check out my [fieldwork](https://brianfolt.github.io/fieldwork) page for a map of study sites, pictures, and videos from fun field trips.
+My research program synthesizes topics from three different research fields – ecology, evolution, and wildlife management. Simply put, I develop and test hypotheses about the way nature works, and then I apply these models in ways to sustainably conserve both organisms and ecosystems. **Click on the headers** below  to learn more about areas of my research and see examples of research products. I also include links to more detailed descriptions on my [ResearchGate](https://www.researchgate.net/profile/Brian_Folt) profile. Also, check out my [fieldwork](https://brianfolt.github.io/fieldwork) page for a map of study sites, pictures, and videos from fun field trips.
 
 <div class="expand collapsed" data-toggle="collapse" data-target="#conservation" aria-expanded="false" aria-controls="conservation">
-## 1) Quantitative population ecology and conservation of imperiled species
+## 1) Applied population ecology
 </div>
 
 <div class="collapse" id="conservation">
-<img src="images/figure1-1.jpg" style="width:40%; border:2px solid; margin-left: 15px" align="right">
-I have engaged in demographic studies of large and imperiled reptiles that are currently listed or being petitioned for listing under the federal Endangered Species Act (ESA). These studies use field studies to understand the factors influencing demographic processes within species, and mathematical modeling processes to make smart decisions for how to conserve them. [Project description](https://www.researchgate.net/project/Applied-population-modeling-of-imperiled-vertebrates)
+<img src="images/indigos.jpg" style="width:40%; margin-left: 15px" align="right">
+I perform demographic studies of imperiled vertebrates that are currently listed or being petitioned for listing under the federal Endangered Species Act (ESA). To do so, I use field studies to understand the intrinsic and extrinsic factors influencing demographic vital rates of species, and then I build mathematical population models that evaluate how management plans influence population growth. This research seeks to support strong decision-making processes to conserve imperiled species. [Project description](https://www.researchgate.net/project/Applied-population-modeling-of-imperiled-vertebrates)
 
-  - Modeling reintroduction scenarios and successes for the federally-threatened Eastern Indigo Snakes (<i>Drymarchon couperi</i>) in Alabama and Florida [PDF](files/folt-et-al-2019-animal-conservation.PDF)
+  - [Modeling reintroduction scenarios and successes for the federally-threatened Eastern Indigo Snakes](files/folt-et-al-2019-animal-conservation.pdf) (<i>Drymarchon couperi</i>)
   
-  - Population demographics of Alligator Snapping Turtles (<i>Macrochelys temminckii</i>) [PDF](files/folt-et-al-2016-macrochelys.PDF) 
+  - [Population demographics of Alligator Snapping Turtles](files/folt-et-al-2016-macrochelys.pdf) (<i>Macrochelys temminckii</i>) in an unharvested reference population
   
   - Estimating demography and projecting population viability of Gopher Tortoises (<i>Gopherus polyphemus</i>) (in review)
+  
+  - The importance of decision context in population viability analysis (in preparation)
 </div>
 
 
 <div class="expand collapsed" data-toggle="collapse" data-target="#popeco" aria-expanded="false" aria-controls="popeco">
-## 2) Population ecology in Neotropical rain forests
+## 2) Population dynamics in Neotropical rain forests
 </div>
 
 <div class="collapse" id="popeco">
-<img src="images/hypothetical-model.png" style="width:40%; border:2px solid; margin-left: 15px" align="right">
+<img src="images/hypothetical-model.png" style="width:40%; margin-left: 15px" align="right">
 
-For my dissertation, I tested and integrated three hypotheses describing bottom-up, top-down, and parallel population regulation of a model frog and lizard assemblage at La Selva Biological Station, Costa Rica. [Project description](https://www.researchgate.net/project/Population-and-community-ecology-in-Neotropical-forests)
+In general, I am interested in understanding the intrinsic and extrinsic factors that influence population regulation of aniamls. For my dissertation, I tested and integrated three hypotheses describing bottom-up (food resources), top-down (predators), and parallel (intraspecific interactions) population regulation of a model frog and lizard assemblage at La Selva Biological Station, Costa Rica. [Project description](https://www.researchgate.net/project/Population-and-community-ecology-in-Neotropical-forests)
 
+  - [Conspecific attraction of poison frogs](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.3748) in tropical forests  
+  
   - Top-down vs. bottom-up regulation of prey frogs and lizards (mainland-island model of anole population regulation) (in review)
   
-  - Conspecific attraction of [poison frogs](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.3748) in tropical forests
+  - Bottom-up regulation of frogs and lizards (the litter-mosaic hypothesis; in prep)
   
-  - Bottom-up regulation of frogs and lizards (the litter-mosaic hypothesis)
-  
-  - Habitat-driven [community assembly of glassfrogs](files/rivera-folt-2018-glassfrogs.PDF)
+  - [Habitat-driven community assembly of glassfrogs](files/rivera-folt-2018-glassfrogs.pdf)
 </div>
 
 
-<div class="expand collapsed" data-toggle="collapse" data-target="#systematics" aria-expanded="false" aria-controls="systematics">
-## 3) Molecular ecology and systematics
+<div class="expand collapsed" data-toggle="collapse" data-target="#molecularecology" aria-expanded="false" aria-controls="molecularecology">
+## 3) Molecular ecology
 </div>
 
-<div class="collapse" id="systematics">
-<img src="images/pseudotriton1.jpg" style="width:40%; border:2px solid; margin-left: 15px" align="right">
+<div class="collapse" id="molecularecology">
+<img src="images/structure.jpg" style="width:40%; margin-left: 15px" align="right">
 
-I am also active in projects which use a molecular-ecology toolkit to test hypotheses about population genetic structure, historical biogeography, and systematic relationships among vertebrates — while keeping a keen interest in how these patterns and processes influence conservation strategies. [Project description](https://www.researchgate.net/project/Evolution-and-systematics-of-amphibians-and-reptiles)
+Habitat fragmentation in the Anthropocene has drastically reshaped natural landscapes and greatly disrupted patterns of gene flow among plant and animal populations, particularly for ‘rare’ species with low dispersal ability. However, when species decline and become at risk of extinction, populations become less abundant and typical methods to assess demographic features (e.g., mark-recapture) can become impractical for estimating trends in population vital rates. To this end, I use a molecular ecology toolkit to assess demography features for imperiled species, such as population redundancy (i.e., the number of populations), effective population size, genetic diversity, and migration between populations – and I leverage this information to guide conservation strong decision making. [Project description](https://www.researchgate.net/project/Evolution-and-systematics-of-amphibians-and-reptiles)
 
-  - Population [genetic structure of Eastern Indigo Snakes](files/folt-et-al-2019-plos-one.PDF) (<i>Drymarchon couperi</i>)
+  - [Population genetic structure of Eastern Indigo Snakes](files/folt-et-al-2019-plos-one.pdf) (<i>Drymarchon couperi</i>)
   
-  - Hybridization of Map Turtles (<i>Graptemys</i> sps.) [PDF1](files/godwin-et-al-2014-graptemys.PDF) [PDF2](http://www.herpconbio.org/Volume_11/Issue_1/Ennen_etal_2016.pdf)
+  - Hybridization of Map Turtles (<i>Graptemys</i> sps.) [PDF1](files/godwin-et-al-2014-graptemys.pdf) [PDF2](http://www.herpconbio.org/Volume_11/Issue_1/Ennen_etal_2016.pdf)
   
-  - Phylogenomics of plethodontid salamanders [PDF](files/folt-et-al-2016-mpe.PDF)
+  - [Phylogenomics of plethodontid salamanders](files/folt-et-al-2016-mpe.pdf)
   
-  - Systematics of Alligator Snapping Turtles (<i>Macrochelys</i> sp.) [PDF](files/folt-guyer-2015.PDF)
+  - [Systematics of Alligator Snapping Turtles](files/folt-guyer-2015.pdf) (<i>Macrochelys</i> sp.)
 </div>
   
   

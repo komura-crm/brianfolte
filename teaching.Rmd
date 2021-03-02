@@ -21,21 +21,47 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 # Teaching Philosophy and Experiences
 
-To better understand and conserve wild life on Earth, we must engender interest and demonstrate intrinsic value of the natural world to future generations, and the only way to do this is by teaching.  By fostering a strong conservation ethic through education, I believe that teaching is one of my strongest tools to not only help better understand biodiversity on Earth, but also to conserve it. One avenue I have worked to accomplish these goals is by teaching students at the collegiate level. To this end, I have taught lecture and laboratory courses aimed to engage and educate students in three topics to date:
+To understand and conserve wildlife on Earth, we must  generate interest in  nature to future generations and also provide young scientists and professionals the knowledge and practical skills necessary to conserve it. I work to accomplish these goals through education at multiple levels. First, I teach students at the collegiate level to foster student interest, provide foundational knowledge, and cultivate critical thinking skills. Second, I teach professional conservation practictioners from state and federal agencies the analytical skills necessary to assess species' conservation statuses. Last, I engage in outreach at multiple scales to educate and increase interest in nature among the public. By fostering a strong conservation ethic through education, I believe that teaching is one of my strongest tools to not only help better understand biodiversity on Earth, but also to conserve it. On this page, you can read about educational formats I use to teach ecology and conservation biology. 
 
-## Tropical Ecology
+<div class="expand collapsed" data-toggle="collapse" data-target="#college" aria-expanded="false" aria-controls="college">
+## 1) Collegiate education
+</div>
+
+<div class="collapse" id="college">
+**Tropical Ecology**
 
 <img src="images/TropBio-PaloVerde-Federico-Chinchilla.jpg" style="width:40%; border:2px solid; margin-left: 15px" align="right">
-
 In 2017, I worked as a Resident Professor for the Organization for Tropical Studies in Costa Rica, where I co-taught an undergraduate study-abroad course in tropical ecology. The course – Tropical Biology on a Changing Planet – was offered through Organization for Tropical Studies and accredited by Duke University. During a semester, the students and faculty visited six tropical forest biomes in Costa Rica and Panama, during which they become experts in ecology, environmental policy, and research methods in the diverse tropical ecosystems. They also become proficient in Spanish language and Costa Rican culture through classes at the Costa Rican Language Academy and by hanging out with all the great Costa Ricans at the field sites. Please contact me if you are interested in studying tropical biology in Costa Rica.
 
-## Vertebrate Ecology and Herpetology
+**Vertebrate Ecology and Herpetology**
 
 <img src="images/gang_11mar17_2a.jpg" style="width:40%; border:2px solid; margin-left: 15px" align="right">
 
 I have taught laboratory and field courses in both Vertebrate Biodiversity and Herpetology at Auburn University. Courses introduced students to natural history, diversity, taxonomy, and anatomy of vertebrates in the southeastern United States, but herpetology provided an exhaustive focus strictly on amphibians and reptiles. Both courses included extensive field components with numerous field trips, including weekend-long experiences. The courses concluded with students conducting independent or group research projects on a species of interest, and students gave presentations on the projects.
 
-See below for brief teaching examples from Tropical Ecology in Costa Rica!
+</div>
+
+
+
+
+
+<div class="expand collapsed" data-toggle="collapse" data-target="#ssa" aria-expanded="false" aria-controls="ssa">
+## 2) Quantitative Methods for Species Status Assessments
+</div>
+
+<div class="collapse" id="ssa">
+
+<img src="images/SSA200small.jpg" style="width:40%; border:2px solid; margin-left: 15px" align="right">
+
+I co-taught "SSA200 - Strategic Use of Data for Species Status Assessments", a two-day crash-course in wildlife population statistics, modeling, and population projections for USFWS biologists involved in [Species Status Assessments](https://www.fws.gov/endangered/improving_esa/ssa.html). All course materials (lectures, activities, web applications, and other information) can be found on the [course website](ssa200.auburn.edu). 
+
+</div>
+
+<div class="expand collapsed" data-toggle="collapse" data-target="#vids" aria-expanded="false" aria-controls="vids">
+**Click here** for brief teaching examples from Tropical Ecology in Costa Rica!
+</div>
+
+<div class="collapse" id="vids">
 
 ```{r library(vembedr), echo=FALSE}
 embed_vimeo("252555348") %>%
@@ -44,3 +70,5 @@ embed_vimeo("252555348") %>%
 embed_vimeo("252284774") %>%
   div(align = "middle")
 ```
+
+</div>
