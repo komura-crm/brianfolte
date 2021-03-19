@@ -20,7 +20,7 @@ Below are my publications and PDF reprints, and here is a link to my [Google Sch
 
 ### <u>Submitted/in review</u>
 
-<img src="images/tortoises.jpg" style="width:30%; border:1px solid; margin-left: 15px" align="right">
+<img src="images/tortoises.jpg" style="width:30%; margin-left: 15px" align="right">
 
 AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan (submitted). Decision context as a necessary component of population viability analysis appraisal.
 
