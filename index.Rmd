@@ -16,7 +16,8 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 <img src="images/me_amphiuma_2012.jpg" style="width:30%; border:2px solid; margin-right: 20px" align="left">
 
-# Brian Folt, PhD -- Wildlife biology, population modeling, and conservation
+# Brian Folt, PhD
+# Wildlife biology, population modeling, and conservation
 
 I am a wildlife biologist, a tropical ecologist, and a conservationist. I hold a B.S. in [Biological Sciences from Ohio University](https://www.ohio.edu/cas/biology) (2011) and a Ph.D. in [Ecology from Auburn University](http://www.auburn.edu/cosam/departments/biology/) (2017). I am now a post-doctoral researcher in the [Alabama Cooperative Fish and Wildlife Research Unit](https://www1.usgs.gov/coopunits/Alabama/) at Auburn University, where I am modeling population demography of endangered species and engaging in decision-support science. My post-doctoral superviser is [Conor McGowan](https://scholar.google.com/citations?user=8-3_fxYAAAAJ&hl=en&oi=ao).
 

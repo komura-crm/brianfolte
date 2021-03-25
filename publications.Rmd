@@ -17,15 +17,24 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 # Publications
 
 Below are my publications and PDF reprints, and here is a link to my [Google Scholar](https://scholar.google.com/citations?user=wYb92bAAAAAJ&hl=en&oi=ao). Carrots (^) indicate undergraduate students that I mentored.
-<img src="images/ptychohyla.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+### <u>Submitted/in review</u>
+
+<img src="images/tortoises.jpg" style="width:30%; border:1px solid; margin-left: 15px" align="right">
+
+AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan (submitted). Decision context as a necessary component of population viability analysis appraisal.
+
+**B Folt**, J Goessling, AM Tucker, C Guyer, S Hermann, E Shelton-Nix, CP McGowan (in review). Contrasting patterns of demography and population viability among gopher tortoise (*Gopherus polyphemus*) populations at the species’ northern range edge.
+
+**B Folt** (in review). Population demography of *Rhinoclemmys funerea* (Black River Turtle) at a protected forest reserve in Costa Rica.
+
+**B Folt**, C Guyer (in review). Habitat-dependent effects of predators on prey frogs in a Neotropical wet forest. 
 
 ### <u>2020</u>
 
 R Etzel^, M Cornish^, MS Kifer^, L Nuñez, G Valladao^, **B Folt** (2020). Subterranean advertisement and duet calling behavior in *Ptychohyla legleri* (Legler’s Stream Frog). *Alytes* 37(3–4): 57–61. [Proofs](files/etzel-et-al-2020-proofs.pdf) [Data](https://figshare.com/articles/Calling_Behavior_of_Ptychohyla_legleri_Legler_s_Stream_Frog_/11797191)
 
 ### <u>2019</u>
-
-**B Folt**, CP McGowan, DA Steen, S Piccolomini, M Hoffman, J Godwin, C Guyer (2019). Modeling strategies and evaluating success during repatriations of elusive and endangered species. *Animal Conservation*. [PDF](files/folt-et-al-2019-animal-conservation.pdf) [DOI](https://doi.org/10.1111/acv.12537) [Code](https://github.com/brianf0lt/indigo-repatriation-model)
 
 <img src="images/indigo.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
