@@ -22,7 +22,7 @@ Below are my publications and PDF reprints, and here is a link to my [Google Sch
 
 <img src="images/tortoises.jpg" style="width:30%; margin-left: 15px" align="right">
 
-AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan (submitted). Decision context as a necessary component of population viability analysis appraisal.
+AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan (in review). Decision context as a necessary component of population viability analysis appraisal.
 
 **B Folt**, J Goessling, AM Tucker, C Guyer, S Hermann, E Shelton-Nix, CP McGowan (in review). Contrasting patterns of demography and population viability among gopher tortoise (*Gopherus polyphemus*) populations at the species’ northern range edge.
 
