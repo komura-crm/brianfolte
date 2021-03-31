@@ -23,6 +23,15 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 Below here are a few blogs where I contemplate half-formed philosophies and various other musings about life and this wild world that we live in. Have a click and a read or two.
 
+<div class="expand collapsed" data-toggle="collapse" data-target="#tracks" aria-expanded="false" aria-controls="tracks">
+**Tracks and Shadows - 18 June 2020**
+</div>
+
+<div class="collapse" id="tracks">
+<img src="images/black-river.jpg" style="width:30%; border:1px solid; margin-left: 15px" align="right">
+"<i>Pondering these loose ends - questions answered and some still nagging - I urge young nature-lovers to seek out three sorts of experiences that have pivotally influenced my worldview. The first would be to go backpacking: to feel responsible in your sore, uncertain bones for food, water, shelter, and unforeseen calamities; better yet, at least once, to carry out feces, as we did in Paria Canyon, holding oneself accountable for even personal waste. Another experience would be to walk among Africa's megafauna, thereby getting a firsthand sense of what we've lost in North America, what we stand to lose soon all over the world, forever. And third, I would encourage novice naturalists to slaughter and eat a large mammal - the vegetarian alternative being to clear a chunk of habitat that houses several rabbit-sized fur-bearers, dispatching ever living thing before sundering the ground with a plow and planting fruits, grains, and vegetables. During decades of studying predators I've often wondered what it would be like to face fully the implications of an omnivorous primate lifestyle. But we'll head down that path in the next chapter.</i>" -Harry W. Green, <i>Tracks and Shadows: Field Biology as Art</i>
+</div>
+
 <div class="expand collapsed" data-toggle="collapse" data-target="#missoula" aria-expanded="false" aria-controls="missoula">
 **A River Runs Through It - 31 October 2019**
 </div>
