@@ -23,6 +23,6 @@ I am a wildlife biologist, population ecologist, and conservationist. I hold a B
 
 On this site, you can learn about my [research](https://brianfolt.github.io/research) and [teaching](https://brianfolt.github.io/teaching) background, where I conduct [field research projects](https://brianfolt.github.io/fieldwork), and the resulting [publications](https://brianfolt.github.io/publications). Last, I hope to highlight various other [musings, philosophies, and life experiences](https://brianfolt.github.io/musings) with periodic blog posts.
 
-You can contact me at: brian [dot] folt [at] gmail.com or +1.334.844.9219. My postal address is: 3301 School of Forestry and Wildlife Sciences, Auburn University, Alabama 36849 USA
+You can contact me at: brian [dot] folt [at] ufl.edu. My postal address is: 1728 McCarty Drive, Bldg. 810, P.O. Box 110485, Gainesville, Florida 32611-0485, USA
 
 <img src="images/logos.jpg" style="width:100%; border:0px solid; margin-right: 20px" align="center">
