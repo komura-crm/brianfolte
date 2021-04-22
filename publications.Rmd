@@ -30,7 +30,9 @@ AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan (in review). Decision c
 
 **B Folt**, J Goessling, AM Tucker, C Guyer, S Hermann, E Shelton-Nix, CP McGowan (in review). Contrasting patterns of demography and population viability among gopher tortoise populations in Alabama.
 
-**B Folt** (accepted pending revision). Population demography of *Rhinoclemmys funerea* (Black River Turtle) at a protected forest reserve in Costa Rica.
+### <u>Accepted/in press</u>
+
+**B Folt** (accepted). Population demography of *Rhinoclemmys funerea* (Black River Turtle) at a protected forest reserve in Costa Rica. *Herpetological Conservation and Biology*
 
 ### <u>2020</u>
 
@@ -38,7 +40,7 @@ R Etzel^, M Cornish^, MS Kifer^, L Nuñez, G Valladao^, **B Folt** (2020). Subte
 
 <img src="images/indigo.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
-**B Folt**, CP McGowan, DA Steen, S Piccolomini, M Hoffman, J Godwin, C Guyer (2019). Modeling strategies and evaluating success during repatriations of elusive and endangered species. *Animal Conservation*. [PDF](files/folt-et-al-2019-animal-conservation.pdf) [DOI](https://doi.org/10.1111/acv.12537) [Code](https://github.com/brianf0lt/indigo-repatriation-model)
+**B Folt**, CP McGowan, DA Steen, S Piccolomini, M Hoffman, J Godwin, C Guyer (2020). Modeling strategies and evaluating success during repatriations of elusive and endangered species. *Animal Conservation* 23: 273–285. [PDF](files/folt-et-al-2019-animal-conservation.pdf) [DOI](https://doi.org/10.1111/acv.12537) [Code](https://github.com/brianf0lt/indigo-repatriation-model)
 
 ### <u>2019</u>
 
