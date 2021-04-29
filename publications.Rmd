@@ -16,7 +16,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 # Publications
 
-Below are my publications and PDF reprints, and here is a link to my [Google Scholar](https://scholar.google.com/citations?user=wYb92bAAAAAJ&hl=en&oi=ao). Carrots (^) indicate undergraduate students that I mentored.
+Below are my publications and PDF reprints, and here is a link to my [Google Scholar](https://scholar.google.com/citations?user=wYb92bAAAAAJ&hl=en&oi=ao). Carets (^) indicate undergraduate students that I mentored. 
 
 ### <u>Submitted/in review</u>
 
