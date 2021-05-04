@@ -22,8 +22,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -350,7 +361,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 <p><img src="images/tortoises.jpg" style="width:30%; margin-left: 15px" align="right"></p>
 <p>T Mitchell, <strong>B Folt</strong>, J Hall (submitted). <i>Agama</i> the Grouch: dumpsters are important habitat for invasive African rock agama lizards in Florida.</p>
 <p><strong>B Folt</strong>, C Guyer (in review). Habitat-dependent effects of predators on prey frogs in a Neotropical wet forest.</p>
-<p><strong>B Folt</strong>, J Goessling, AM Tucker, C Guyer, S Hermann, E Shelton-Nix, CP McGowan (in review). Contrasting patterns of demography and population viability among gopher tortoise populations in Alabama.</p>
+<p><strong>B Folt</strong>, J Goessling, AM Tucker, C Guyer, S Hermann, E Shelton-Nix, CP McGowan (minor revisions). Contrasting patterns of demography and population viability among gopher tortoise populations in Alabama.</p>
 </div>
 <div id="acceptedin-press" class="section level3">
 <h3><u>Accepted/in press</u></h3>
@@ -446,7 +457,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
