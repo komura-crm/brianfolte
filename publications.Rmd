@@ -16,7 +16,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 # Publications
 
-Below are my publications and PDF reprints, and here is a link to my [Google Scholar](https://scholar.google.com/citations?user=wYb92bAAAAAJ&hl=en&oi=ao). Carets (^) indicate undergraduate students that I mentored. 
+Below are my publications and PDF reprints, and here is a link to my [Google Scholar](https://scholar.google.com/citations?user=wYb92bAAAAAJ&hl=en&oi=ao). Peer-reviewed publications are listed numerically and ordered by year. Carets (^) indicate undergraduate students that I mentored. 
 
 ### <u>Submitted/in review</u>
 
@@ -107,7 +107,6 @@ T Mitchell, **B Folt**, J Hall (submitted). <i>Agama</i> the Grouch: dumpsters a
 
 **B Folt**, JG Davis (2013). Blanchard’s Cricket Frog *Acris blanchardi* (Harper 1947). In: R Pfingsten, JG Davis, TO Matson, G Lipps Jr., D Wynn, BJ Armitage (eds) *Amphibians of Ohio*. Ohio Biological Survey Bulletin New Series 17(1)
  
- 
 ### <u>Natural history papers</u>
 
 C Sanspree, CM Murray, **B Folt** (2016). *Macrochelys temminckii* (Alligator Snapping Turtle): predation. *Herpetological Review* 47(1): 124–5. [PDF](files/sanspree-et-al-2016-macrochelys-predation.pdf) 
@@ -145,3 +144,10 @@ IEP Turner, **B Folt** (2012). *Terrapene carolina* (Eastern Box Turtle): geogra
 **B Folt** (2012). *Plestiodon laticeps* (Broad-headed Skink): geographic distribution. *Herpetological Review* 43(1): 103.
 
 **B Folt** (2012). *Virginia valeriae* (Smooth Earthsnake): geographic distribution. *Herpetological Review* 43(1): 109.
+
+### <u>Outreach publications</u>
+
+**B Folt** (2019). Op-ed: “Indigo Snake Releases are Guided by Strong Science and Conservation Ethic.” *The Tallahassee Democrat*. [Link](https://www.tallahassee.com/story/opinion/2019/03/31/indigo-snake-releases-guided-strong-science-conservation-ethic/3313120002/)
+
+**B Folt** (2014). Alligator Snapping Turtles: Ecology and Mythology in Alabama. *Alabama Wildlife Magazine*, July 2014. 44 pp. Article featured with cover photograph.
+
