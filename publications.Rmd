@@ -30,7 +30,7 @@ Below are my publications and PDF reprints, and here is a link to my [Google Sch
 
 <img src="images/tortoises.jpg" style="width:30%; margin-left: 15px" align="right">
 
-### <u>2020</u>
+### <u>2021</u>
 
 [19] **B Folt**, J Goessling, AM Tucker, C Guyer, S Hermann, E Shelton-Nix, CP McGowan. Contrasting patterns of demography and population viability among gopher tortoise populations in Alabama. *Journal of Wildlife Management*. [PDF](files/folt-et-al-2021-jwm.pdf) [DOI](https://doi.org/10.1002/jwmg.21996)
 
