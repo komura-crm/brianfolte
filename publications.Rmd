@@ -26,7 +26,7 @@ Below are my publications and PDF reprints, and here is a link to my [Google Sch
 
 [21] AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan. Decision context as a necessary component of population viability analysis appraisal. *Conservation Biology*, in press.
 
-<img src="images/jwm-cover.jpg" style="width:30%; margin-left: 15px" align="right">
+<img src="images/jwm-cover.jpg" style="width:20%; margin-left: 15px" align="right">
 
 ### <u>2021</u>
 
