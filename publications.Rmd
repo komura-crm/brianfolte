@@ -26,7 +26,7 @@ Below are my publications and PDF reprints, and here is a link to my [Google Sch
 
 <img src="images/WL110573.JPG" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
-[22] AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan. 2021. Decision context as a necessary component of population viability analysis appraisal. *Conservation Biology*, in press. [DOI](https://doi.org/10.1111/cobi.13818)
+[22] AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan. 2021. Decision context as a necessary component of population viability analysis appraisal. *Conservation Biology*, in press. [DOI](https://doi.org/10.1111/cobi.13818) 
 
 [21] **B Folt**, C Guyer. 2021. Habitat-dependent effects of predators on prey frogs in a Neotropical wet forest. *Journal of Tropical Ecology*. [PDF](files/folt-and-guyer-2021-spiders.pdf) [DOI](https://doi.org/10.1017/S0266467421000274)
 
