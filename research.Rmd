@@ -16,44 +16,44 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 # Research 
 
-My research program synthesizes topics from three different research fields – ecology, evolution, and wildlife management. Simply put, I develop and test hypotheses about the way nature works, and then I apply these models in ways to sustainably conserve both organisms and ecosystems. **Click on the headers** below  to learn more about areas of my research and see examples of research products. I also include links to more detailed descriptions on my [ResearchGate](https://www.researchgate.net/profile/Brian_Folt) profile. Also, check out my [fieldwork](https://brianfolt.github.io/fieldwork) page for a map of study sites, pictures, and videos from fun field trips.
-
-<div class="expand collapsed" data-toggle="collapse" data-target="#conservation" aria-expanded="false" aria-controls="conservation">
-## 1) Applied population ecology
-</div>
-
-<div class="collapse" id="conservation">
-<img src="images/indigos.jpg" style="width:40%; margin-left: 15px" align="right">
-I perform demographic studies of imperiled vertebrates that are currently listed or being petitioned for listing under the federal Endangered Species Act (ESA). To do so, I use field studies to understand the intrinsic and extrinsic factors influencing demographic vital rates of species, and then I build mathematical population models that evaluate how management plans influence population growth. In particular, I use the process of optimization to evaluate how different management strategies achieve fundamental objectives (e.g., population viability) while minimizing limiting constraints (e.g., cost). This research seeks to support strong decision-making processes to conserve imperiled species while operating under real-world scenarios, such as limited budgets. [Project description](https://www.researchgate.net/project/Applied-population-modeling-of-imperiled-vertebrates)
-
-  - [Modeling reintroduction scenarios and successes for the federally-threatened Eastern Indigo Snakes](files/folt-et-al-2019-animal-conservation.pdf) (<i>Drymarchon couperi</i>)
-  
-  - [Population demographics of Alligator Snapping Turtles](files/folt-et-al-2016-macrochelys.pdf) (<i>Macrochelys temminckii</i>) in an unharvested reference population
-  
-  - Estimating demography and projecting population viability of Gopher Tortoises (<i>Gopherus polyphemus</i>) (in press)
-  
-  - The importance of decision context in population viability analysis (in press)
-</div>
-
+My research program explores the field of population ecology from fundamental and applied perspectives. I conduct fundamental research that involves developing and testing hypotheses about the way populations function, and then I conduct applied research that evaluates how management can maximize fundamental and societal values. In particular, I use decision analysis tools, such as structured decision making, to produce scientific products that support strong decisions in natural resource management. **Click on the headers** below  to learn more about areas of my research and see examples of research products. I also include links to more detailed descriptions on my [ResearchGate](https://www.researchgate.net/profile/Brian_Folt) profile. Also, check out my [fieldwork](https://brianfolt.github.io/fieldwork) page for a map of study sites, pictures, and videos from the research projects in the field and lab. 
 
 <div class="expand collapsed" data-toggle="collapse" data-target="#popeco" aria-expanded="false" aria-controls="popeco">
-## 2) Population regulation
+## 1) Population ecology
 </div>
 
 <div class="collapse" id="popeco">
 <img src="images/hypothetical-model.png" style="width:40%; margin-left: 15px" align="right">
 
-In general, I am interested in understanding the intrinsic and extrinsic factors that influence population growth and regulation of animals. For my dissertation, I tested and integrated three hypotheses describing bottom-up (food resources), top-down (predators), and parallel (intraspecific interactions) population regulation of a model frog and lizard assemblage at La Selva Biological Station, Costa Rica. [Project description](https://www.researchgate.net/project/Population-and-community-ecology-in-Neotropical-forests)
+In general, I am interested in understanding how intrinsic and extrinsic factors influence population growth and regulation of wild animal populations. For my dissertation, I tested and integrated hypotheses describing bottom-up (food resources), top-down (predators), and parallel (intraspecific interactions) population regulation of a model frog and lizard assemblage at La Selva Biological Station, Costa Rica. [Project description](https://www.researchgate.net/project/Population-and-community-ecology-in-Neotropical-forests)
 
-  - [Conspecific attraction of poison frogs](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.3748) in tropical forests  
+  - [Top-down vs. bottom-up regulation of terrestrial vertebrates](files/folt-and-guyer-2021-spiders.pdf)
   
-  - Top-down vs. bottom-up regulation of prey frogs and lizards (mainland-island model of anole population regulation) (in review)
+  - [Conspecific attraction of poison frogs](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.3748) in tropical forests  
   
   - Bottom-up regulation of frogs and lizards (the litter-mosaic hypothesis; in revision)
   
   - [Habitat-driven community assembly of glassfrogs](files/rivera-folt-2018-glassfrogs.pdf)
 </div>
 
+<div class="expand collapsed" data-toggle="collapse" data-target="#conservation" aria-expanded="false" aria-controls="conservation">
+## 2) Decision-support science
+</div>
+
+<div class="collapse" id="conservation">
+<img src="images/indigos.jpg" style="width:40%; margin-left: 15px" align="right">
+I also conduct research that has strong applications for wildlife management and conservation. I use field studies to understand the intrinsic and extrinsic factors influencing demographic vital rates of species, and then I build mathematical population models that evaluate how management plans influence population growth and population persistence. I use the process of optimization to evaluate how different management strategies achieve fundamental objectives (e.g., population viability) while minimizing limiting constraints (e.g., cost). In particular, I often study populations of imperiled vertebrates that are currently listed or being petitioned for listing under the federal Endangered Species Act (ESA). This research seeks to support strong decision-making processes to conserve imperiled species while operating under real-world scenarios, such as limited budgets. [Project description](https://www.researchgate.net/project/Applied-population-modeling-of-imperiled-vertebrates)
+
+  - [Modeling reintroduction scenarios and successes for the federally-threatened Eastern Indigo Snakes](files/folt-et-al-2019-animal-conservation.pdf)
+  
+  - [Estimating demography and projecting population viability of Gopher Tortoises](files/files/folt-et-al-2021-jwm.pdf)
+
+  - [Population demographics of Alligator Snapping Turtles in an unharvested reference population](files/folt-et-al-2016-macrochelys.pdf)
+    
+  - Using Population Models to Guide Management of Wild Horses (in review)
+  
+  - [The importance of decision context in population viability analysis](files/lawson-et-al-2021-conbio.pdf)
+</div>
 
 <div class="expand collapsed" data-toggle="collapse" data-target="#molecularecology" aria-expanded="false" aria-controls="molecularecology">
 ## 3) Molecular ecology
@@ -70,7 +70,7 @@ Habitat fragmentation in the Anthropocene has drastically reshaped natural lands
   
   - [Phylogenomics of plethodontid salamanders](files/folt-et-al-2016-mpe.pdf)
   
-  - [Systematics of Alligator Snapping Turtles](files/folt-guyer-2015.pdf) (<i>Macrochelys</i> sp.)
+  - Effects of habitat fragmentation on population genetics of Gopher Tortoises (in prep)
 </div>
   
   

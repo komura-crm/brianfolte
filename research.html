@@ -13,17 +13,25 @@
 
 <title>research.utf8</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -37,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -54,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -90,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -110,40 +84,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -171,7 +118,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -183,7 +130,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -194,10 +141,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -209,7 +169,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -307,25 +266,25 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://scholar.google.com/citations?hl=en&amp;user=wYb92bAAAAAJ">
-    <span class="fa fa-google fa-lg"></span>
+    <span class="fas fa-google fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://github.com/brianfolt">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/brianf0lt">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.instagram.com/bf_lettuce/?hl=en">
-    <span class="fa fa-instagram fa-lg"></span>
+    <span class="fas fa-instagram fa-lg"></span>
      
   </a>
 </li>
@@ -334,7 +293,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -342,6 +301,8 @@ $(document).ready(function () {
 </div>
 
 
+<div id="section" class="section level2">
+<h2>—</h2>
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <style type="text/css">
 body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black}
@@ -353,36 +314,38 @@ h3 { /* Header 3 */ font-size: 18px; color: Black;}
 code.r{ /* Code block */ font-size: 12px;}
 pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 </style>
+</div>
 <div id="research" class="section level1">
 <h1>Research</h1>
-<p>My research program synthesizes topics from three different research fields – ecology, evolution, and wildlife management. Simply put, I develop and test hypotheses about the way nature works, and then I apply these models in ways to sustainably conserve both organisms and ecosystems. <strong>Click on the headers</strong> below to learn more about areas of my research and see examples of research products. I also include links to more detailed descriptions on my <a href="https://www.researchgate.net/profile/Brian_Folt">ResearchGate</a> profile. Also, check out my <a href="https://brianfolt.github.io/fieldwork">fieldwork</a> page for a map of study sites, pictures, and videos from fun field trips.</p>
-<div class="expand collapsed" data-toggle="collapse" data-target="#conservation" aria-expanded="false" aria-controls="conservation">
-<h2 id="applied-population-ecology">1) Applied population ecology</h2>
-</div>
-<div id="conservation" class="collapse">
-<p><img src="images/indigos.jpg" style="width:40%; margin-left: 15px" align="right"> I perform demographic studies of imperiled vertebrates that are currently listed or being petitioned for listing under the federal Endangered Species Act (ESA). To do so, I use field studies to understand the intrinsic and extrinsic factors influencing demographic vital rates of species, and then I build mathematical population models that evaluate how management plans influence population growth. In particular, I use the process of optimization to evaluate how different management strategies achieve fundamental objectives (e.g., population viability) while minimizing limiting constraints (e.g., cost). This research seeks to support strong decision-making processes to conserve imperiled species while operating under real-world scenarios, such as limited budgets. <a href="https://www.researchgate.net/project/Applied-population-modeling-of-imperiled-vertebrates">Project description</a></p>
-<ul>
-<li><p><a href="files/folt-et-al-2019-animal-conservation.pdf">Modeling reintroduction scenarios and successes for the federally-threatened Eastern Indigo Snakes</a> (<i>Drymarchon couperi</i>)</p></li>
-<li><p><a href="files/folt-et-al-2016-macrochelys.pdf">Population demographics of Alligator Snapping Turtles</a> (<i>Macrochelys temminckii</i>) in an unharvested reference population</p></li>
-<li><p>Estimating demography and projecting population viability of Gopher Tortoises (<i>Gopherus polyphemus</i>) (in press)</p></li>
-<li><p>The importance of decision context in population viability analysis (in press)</p></li>
-</ul>
-</div>
-<div class="expand collapsed" data-toggle="collapse" data-target="#popeco" aria-expanded="false" aria-controls="popeco">
-<h2 id="population-regulation">2) Population regulation</h2>
+<p>My research program explores the field of population ecology from fundamental and applied perspectives. I conduct fundamental research that involves developing and testing hypotheses about the way populations function, and then I conduct applied research that evaluates how management can maximize fundamental and societal values. In particular, I use decision analysis tools, such as structured decision making, to produce scientific products that support strong decisions in natural resource management. <strong>Click on the headers</strong> below to learn more about areas of my research and see examples of research products. I also include links to more detailed descriptions on my <a href="https://www.researchgate.net/profile/Brian_Folt">ResearchGate</a> profile. Also, check out my <a href="https://brianfolt.github.io/fieldwork">fieldwork</a> page for a map of study sites, pictures, and videos from the research projects in the field and lab.</p>
+<div id="population-ecology" class="section level2 expand collapsed" data-toggle="collapse" data-target="#popeco" aria-expanded="false" aria-controls="popeco">
+<h2>1) Population ecology</h2>
 </div>
 <div id="popeco" class="collapse">
 <p><img src="images/hypothetical-model.png" style="width:40%; margin-left: 15px" align="right"></p>
-<p>In general, I am interested in understanding the intrinsic and extrinsic factors that influence population growth and regulation of animals. For my dissertation, I tested and integrated three hypotheses describing bottom-up (food resources), top-down (predators), and parallel (intraspecific interactions) population regulation of a model frog and lizard assemblage at La Selva Biological Station, Costa Rica. <a href="https://www.researchgate.net/project/Population-and-community-ecology-in-Neotropical-forests">Project description</a></p>
+<p>In general, I am interested in understanding how intrinsic and extrinsic factors influence population growth and regulation of wild animal populations. For my dissertation, I tested and integrated hypotheses describing bottom-up (food resources), top-down (predators), and parallel (intraspecific interactions) population regulation of a model frog and lizard assemblage at La Selva Biological Station, Costa Rica. <a href="https://www.researchgate.net/project/Population-and-community-ecology-in-Neotropical-forests">Project description</a></p>
 <ul>
+<li><p><a href="files/folt-and-guyer-2021-spiders.pdf">Top-down vs. bottom-up regulation of terrestrial vertebrates</a></p></li>
 <li><p><a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.3748">Conspecific attraction of poison frogs</a> in tropical forests</p></li>
-<li><p>Top-down vs. bottom-up regulation of prey frogs and lizards (mainland-island model of anole population regulation) (in review)</p></li>
 <li><p>Bottom-up regulation of frogs and lizards (the litter-mosaic hypothesis; in revision)</p></li>
 <li><p><a href="files/rivera-folt-2018-glassfrogs.pdf">Habitat-driven community assembly of glassfrogs</a></p></li>
 </ul>
 </div>
-<div class="expand collapsed" data-toggle="collapse" data-target="#molecularecology" aria-expanded="false" aria-controls="molecularecology">
-<h2 id="molecular-ecology">3) Molecular ecology</h2>
+<div id="decision-support-science" class="section level2 expand collapsed" data-toggle="collapse" data-target="#conservation" aria-expanded="false" aria-controls="conservation">
+<h2>2) Decision-support science</h2>
+</div>
+<div id="conservation" class="collapse">
+<p><img src="images/indigos.jpg" style="width:40%; margin-left: 15px" align="right"> I also conduct research that has strong applications for wildlife management and conservation. I use field studies to understand the intrinsic and extrinsic factors influencing demographic vital rates of species, and then I build mathematical population models that evaluate how management plans influence population growth and population persistence. I use the process of optimization to evaluate how different management strategies achieve fundamental objectives (e.g., population viability) while minimizing limiting constraints (e.g., cost). In particular, I often study populations of imperiled vertebrates that are currently listed or being petitioned for listing under the federal Endangered Species Act (ESA). This research seeks to support strong decision-making processes to conserve imperiled species while operating under real-world scenarios, such as limited budgets. <a href="https://www.researchgate.net/project/Applied-population-modeling-of-imperiled-vertebrates">Project description</a></p>
+<ul>
+<li><p><a href="files/folt-et-al-2019-animal-conservation.pdf">Modeling reintroduction scenarios and successes for the federally-threatened Eastern Indigo Snakes</a></p></li>
+<li><p><a href="files/files/folt-et-al-2021-jwm.pdf">Estimating demography and projecting population viability of Gopher Tortoises</a></p></li>
+<li><p><a href="files/folt-et-al-2016-macrochelys.pdf">Population demographics of Alligator Snapping Turtles in an unharvested reference population</a></p></li>
+<li><p>Using Population Models to Guide Management of Wild Horses (in review)</p></li>
+<li><p><a href="files/lawson-et-al-2021-conbio.pdf">The importance of decision context in population viability analysis</a></p></li>
+</ul>
+</div>
+<div id="molecular-ecology" class="section level2 expand collapsed" data-toggle="collapse" data-target="#molecularecology" aria-expanded="false" aria-controls="molecularecology">
+<h2>3) Molecular ecology</h2>
 </div>
 <div id="molecularecology" class="collapse">
 <p><img src="images/structure.jpg" style="width:40%; margin-left: 15px" align="right"></p>
@@ -391,7 +354,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 <li><p><a href="files/folt-et-al-2019-plos-one.pdf">Population genetic structure of Eastern Indigo Snakes</a> (<i>Drymarchon couperi</i>)</p></li>
 <li><p>Hybridization of Map Turtles (<i>Graptemys</i> sps.) <a href="files/godwin-et-al-2014-graptemys.pdf">PDF1</a> <a href="http://www.herpconbio.org/Volume_11/Issue_1/Ennen_etal_2016.pdf">PDF2</a></p></li>
 <li><p><a href="files/folt-et-al-2016-mpe.pdf">Phylogenomics of plethodontid salamanders</a></p></li>
-<li><p><a href="files/folt-guyer-2015.pdf">Systematics of Alligator Snapping Turtles</a> (<i>Macrochelys</i> sp.)</p></li>
+<li><p>Population genomic structure of Gopher Tortoises (in prep)</p></li>
 </ul>
 </div>
 </div>
@@ -423,7 +386,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

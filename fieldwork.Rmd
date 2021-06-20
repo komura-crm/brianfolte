@@ -21,14 +21,14 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 # Fieldwork
 
-Here are sites where my colleagues and I have developed field research projects. The map is still under-construction; check back in the future for project descriptions and pictures!
+Here are sites where my colleagues and I have developed field research projects. The map is still under-construction; check back in the future for project descriptions and pictures.
 
 ```{r leaflet, echo=FALSE}
 
 df <- read.csv(textConnection(
 "Name,Lat,Long,
 Conecuh National Forest, 34.597131,-89.000,
-Yunna China, 22.000, 100.8000,
+Yunnan China, 22.000, 100.8000,
 Lower Canyons TX, 29.633241, -102.74,
 Painter Gap GA, 34.799517, -84.576,
 Spring Creek GA, 30.937477, -84.7426,
@@ -43,7 +43,7 @@ leaflet(df) %>% addTiles() %>%
 
 ```
 
-Here are trip videos from some of my favorite field excursions!
+Here are videos from some favorite field excursions - for research or just for fun.  
 
 ```{r library(vembedr), echo=FALSE}
 embed_vimeo("152795925")
